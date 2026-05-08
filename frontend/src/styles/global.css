@@ -1,0 +1,21 @@
+:root {
+  --gradient-bg:
+    radial-gradient(circle at 12% 18%, rgba(26, 115, 232, 0.14), transparent 30%),
+    radial-gradient(circle at 82% 12%, rgba(22, 160, 133, 0.13), transparent 28%),
+    linear-gradient(135deg, #f8fbff 0%, #eef5ff 48%, #f4fbf7 100%);
+  --gradient-blue: linear-gradient(135deg, #1a73e8 0%, #0288d1 100%);
+  --sidebar-gradient: linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  --glass-bg: rgba(255, 255, 255, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.9);
+  --content-bg: #f8f9fc;
+}
+
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 22px 60px rgba(31, 57, 95, 0.14);
+}
