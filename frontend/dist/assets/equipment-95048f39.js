@@ -1,0 +1,1 @@
+import{r as e}from"./request-368c0356.js";const a=t=>e.get("/equipments",{params:t}),p=t=>e.post("/equipments",t),r=(t,s)=>e.put(`/equipments/${t}`,s),u=t=>e.post("/rentals",t),o=t=>e.get("/rentals",{params:t}),m=t=>e.get("/admin/rentals",{params:t}),i=t=>e.put(`/rentals/${t}/return`);export{o as a,m as b,p as c,i as d,a as g,u as r,r as u};

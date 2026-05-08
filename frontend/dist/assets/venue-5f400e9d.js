@@ -1,0 +1,1 @@
+import{r as s}from"./request-368c0356.js";const n=e=>s.get("/venues",{params:e}),a=()=>s.get("/venues/all"),o=e=>s.get(`/venues/${e}`),c=(e,t)=>s.get(`/venues/${e}/schedule`,{params:{date:t}}),g=e=>s.post("/venues",e),p=(e,t)=>s.put(`/venues/${e}`,t),d=(e,t)=>s.put(`/venues/${e}/status`,t);export{o as a,c as b,a as c,p as d,g as e,n as g,d as u};

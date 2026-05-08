@@ -5,6 +5,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
@@ -30,6 +32,21 @@ public class WebMvcConfig implements WebMvcConfigurer {
                         "/api/auth/login",
                         "/api/auth/register",
                         "/api/auth/admin/login"
-                );
+                )
+                .excludePathPatterns("/assets/**", "/favicon.ico");
+    }
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/assets/**")
+                .addResourceLocations("classpath:/static/assets/");
+    }
+
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addViewController("/{spring:\\w+}")
+                .setViewName("forward:/index.html");
+        registry.addViewController("/{spring:\\w+}/{spring:.*}")
+                .setViewName("forward:/index.html");
     }
 }
