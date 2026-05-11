@@ -1,0 +1,87 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}\else
+  \providecommand\doi[1]{\href{https://doi.org/#1}{\nolinkurl{#1}}}\fi
+
+\bibitem[Feng(2026)]{feng2026}
+Feng~J.
+\newblock Retraction note: Designing an artificial intelligence-based sport
+  management system using big data\allowbreak[J/OL].
+\newblock Soft Computing, 2026:\penalty0 1-1.
+\newblock DOI: \doi{10.1007/S00500-026-11275-1}.
+
+\bibitem[Ding et~al.(2026)Ding and Su]{ding2026}
+Ding~J, Su~Y.
+\newblock Retraction note: A teaching management system for physical education
+  in colleges and universities using the theory of multiple intelligences and
+  svm\allowbreak[J/OL].
+\newblock Soft Computing, 2026:\penalty0 1-1.
+\newblock DOI: \doi{10.1007/S00500-025-11129-2}.
+
+\bibitem[张胜涛(2022)]{zhang2022}
+张胜涛.
+\newblock 计算机技术在体育馆器材管理中应用探究\allowbreak[J].
+\newblock 文体用品与科技, 2022\penalty0 (19):\penalty0 178-180.
+
+\bibitem[林悠阳(2022)]{lin2022}
+林悠阳.
+\newblock
+  IT服务标准在GT体育馆运维服务的应用研究\allowbreak[D/OL].
+\newblock 厦门大学, 2022.
+\newblock DOI: \doi{10.27424/d.cnki.gxmdu.2022.004491}.
+
+\bibitem[罗琼书(2021)]{luo2021}
+罗琼书.
+\newblock 计算机技术在体育馆器材管理中的运用\allowbreak[J/OL].
+\newblock 科技创新导报, 2021, 18\penalty0 (11):\penalty0 174-176.
+\newblock DOI: \doi{10.16660/j.cnki.1674-098X.2103-5640-1458}.
+
+\bibitem[王古将(2020)]{wang2020}
+王古将.
+\newblock 高校体育馆管理软件系统研究与设计\allowbreak[D/OL].
+\newblock 东华大学, 2020.
+\newblock DOI: \doi{10.27012/d.cnki.gdhuu.2020.000446}.
+
+\bibitem[张焱\ 等(2019)张焱 and 童莲]{zhang2019}
+张焱, 童莲.
+\newblock 高校体育馆预约管理系统的设计与实现\allowbreak[J].
+\newblock 花炮科技与市场, 2019\penalty0 (04):\penalty0 214.
+
+\bibitem[罗超(2019)]{luo2019}
+罗超.
+\newblock
+  基于java的健身房管理系统关键技术研究\allowbreak[J/OL].
+\newblock 信息记录材料, 2019, 20\penalty0 (08):\penalty0 159-160.
+\newblock DOI: \doi{10.16009/j.cnki.cn13-1295/tq.2019.08.105}.
+
+\bibitem[吴涛(2018)]{wu2018}
+吴涛.
+\newblock 学校体育馆智能灯光管理系统\allowbreak[J/OL].
+\newblock 电子世界, 2018\penalty0 (11):\penalty0 45-46.
+\newblock DOI: \doi{10.19353/j.cnki.dzsj.2018.11.019}.
+
+\bibitem[张衡\ 等(2017)张衡 and 任崇婷]{zhang2017}
+张衡, 任崇婷.
+\newblock
+  基于WEB的游泳馆会员管理系统的分析与设计\allowbreak[J].
+\newblock 中国新通信, 2017, 19\penalty0 (08):\penalty0 48.
+
+\bibitem[万世友(2016)]{wan2016}
+万世友.
+\newblock
+  高校体育馆网络管理信息系统的设计与实现\allowbreak[D].
+\newblock 吉林大学, 2016.
+
+\bibitem[Zhao et~al.(2026)Zhao, Wang, He, et~al.]{zhao2026}
+Zhao~Z, Wang~B, He~X, et~al.
+\newblock Can artificial intelligence enhance the stability of supply chain
+  systems for sports enterprises? insights from systems theory and supply chain
+  management theory\allowbreak[J/OL].
+\newblock Systems, 2026, 14\penalty0 (3):\penalty0 299-299.
+\newblock DOI: \doi{10.3390/SYSTEMS14030299}.
+
+\end{thebibliography}

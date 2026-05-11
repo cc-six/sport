@@ -1,0 +1,27 @@
+%-------------------------------------------------
+% FileName: abstract-en.tex
+% Description: 英文摘要
+%-------------------------------------------------
+
+\clearpage
+\pagestyle{frontstyle}
+\thispagestyle{frontstyle}
+\currentpdfbookmark{\defABSTRACTNAME}{bm@ABSTRACTNAME}
+\phantomsection
+\addcontentsline{toc}{chapter}{\defABSTRACTNAME}
+
+\begin{center}
+{\rmfamily\bfseries\zihao{-2} Abstract}
+\end{center}
+
+\vspace{\baselineskip}
+
+\ABSTRACT{
+With the continuous development of campus sports activities, the traditional management mode of gymnasiums based on manual registration and offline communication can no longer satisfy the needs of venue reservation, equipment rental and daily operation management. To solve the problems of booking conflicts, delayed information updates, low statistical efficiency and poor user experience, this thesis designs and implements a gymnasium management system based on Java to improve the efficiency of resource allocation and digital management in campus gymnasiums.
+
+The system adopts a front-end and back-end separated architecture. Vue3 and Element Plus are used to build both user-side and administrator-side interfaces, while Spring Boot, MyBatis-Plus and MySQL are employed to implement business logic and data persistence. JWT is introduced to support identity authentication and permission control. The main functions of the system include user registration and login, venue information query, online reservation, order payment and cancellation, equipment rental and record query, as well as unified management of venues, orders, users and equipment by administrators.
+
+This thesis carries out the research from the aspects of requirement analysis, overall design, database design, function implementation and system testing. Special attention is paid to the implementation of booking conflict detection, order status transition, inventory maintenance and dashboard statistics. The test results show that the system can stably support the daily business of campus gymnasiums, and it has good practicability and scalability for further application and improvement.
+}
+
+\KEYWORDS{Gymnasium management system; venue reservation; Spring Boot; Vue3; JWT}

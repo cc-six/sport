@@ -1,0 +1,24 @@
+%-------------------------------------------------
+% FileName: main.tex
+% Description: 主入口文件，编译此文件生成PDF
+%-------------------------------------------------
+
+\documentclass{style/zscthesis}
+
+\begin{document}
+    \input{tex/frontinfo.tex}       % 封面
+    \input{tex/abstract-ch.tex}     % 中文摘要
+    \input{tex/abstract-en.tex}     % 英文摘要
+    \input{tex/content.tex}         % 目录
+    \input{tex/chap-1.tex}          % 第1章 引言
+    \input{tex/chap-2.tex}          % 第2章 相关技术
+    \input{tex/chap-3.tex}          % 第3章 需求分析
+    \input{tex/chap-4.tex}          % 第4章 系统设计
+    \input{tex/chap-5.tex}          % 第5章 系统实现
+    \input{tex/chap-6.tex}          % 第6章 系统测试
+    \input{tex/chap-7.tex}          % 第7章 总结与展望
+    \input{tex/reference.tex}       % 参考文献 (修改bib/ref.bib)
+    \input{tex/acknowledgement.tex} % 致谢
+    % \makedeclaration                % 原创性声明
+    % \input{tex/appendix.tex}      % 附录 (无内容请注释掉)
+\end{document}

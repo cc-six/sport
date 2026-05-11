@@ -1,0 +1,24 @@
+%-------------------------------------------------
+% FileName: content.tex
+% Description: 目录（自动生成，无需修改）
+%-------------------------------------------------
+
+\clearpage
+\currentpdfbookmark{\contentsname}{bm@contentsname}
+\tableofcontents
+
+\clearpage
+\currentpdfbookmark{\listfigurename}{bm@listfigurename}
+{
+\let\oldnumberline\numberline
+\renewcommand{\numberline}{\figurename~\oldnumberline}
+\listoffigures
+}
+
+\clearpage
+\currentpdfbookmark{\listtablename}{bm@listtablename}
+{
+\let\oldnumberline\numberline
+\renewcommand{\numberline}{\tablename~\oldnumberline}
+\listoftables
+}

@@ -1,0 +1,29 @@
+%-------------------------------------------------
+% FileName: abstract-ch.tex
+% Description: 中文摘要
+%-------------------------------------------------
+
+\clearpage
+\setcounter{page}{1}
+\pagenumbering{Roman}
+\pagestyle{frontstyle}
+\thispagestyle{frontstyle}
+\currentpdfbookmark{\defabstractname}{bm@abstractname}
+\phantomsection
+\addcontentsline{toc}{chapter}{\defabstractname}
+
+\begin{center}
+{\heiti\zihao{-2} 摘\quad 要}
+\end{center}
+
+\vspace{\baselineskip}
+
+\abstract{
+高校体育馆的日常运营涉及场地排期、器材出借和订单结算等多类业务，多数学校长期沿用人工登记加电话沟通的方式处理这些事务。这种方式在学生使用频次较高的时段尤其容易出现重复预约、信息更新不及时和事后对账困难等情况。本文针对上述问题，开发了一套面向校园场景的体育馆管理系统，希望把分散的登记、支付和租借动作收拢到一个平台里。
+
+系统整体采用前后端分离实现。前端用 Vue3 搭配 Element Plus 完成用户端和管理端两套界面，所有接口请求由 Axios 统一封装；后端使用 Spring Boot 提供 RESTful 接口，数据访问层基于 MyBatis-Plus，数据库选用 MySQL；登录后由 JWT 携带身份信息进出，权限判断放在拦截器里完成。功能上，用户可以浏览场地、按日期挑选时段下单、随后支付或取消订单，也可以提交器材租借申请并查看自己的租借记录；管理员则负责场地、订单、用户和器材这四类数据的维护。
+
+实现过程中，预约时段冲突判断、订单状态机、器材库存扣减与归还、以及后台首页的数据汇总属于较关键的几处逻辑，本文也对这几个点的处理方式做了较为详细的说明。系统在本地与测试环境完成了功能验证，常规业务路径均能按预期运行，可作为同类校园资源管理系统的参考实现。
+}
+
+\keywords{体育馆管理系统；场地预约；Spring Boot；Vue3；JWT}
